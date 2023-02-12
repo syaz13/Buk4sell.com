@@ -1,0 +1,75 @@
+<!--Anim for buk4sell-->
+
+
+<div class="title">
+<div style="position:relative; bottom:-100px;  right:80px;" id="triangle-top"></div>
+<div style="position:relative; bottom:-100px;  right:80px;" id="triangle-right"></div>
+<div style="position:relative; top:40px;  left:160px;" id="triangle-left"></div>
+<div style="position:relative; bottom:-20px;  left:60px;" id="triangle-bottom"></div>
+<p style="font-family:canvas sans; font-size:40px; position:relative; top:-75px; right:10px;">Buk</p>
+<p style="font-family:RoxborounghCF; font-size:30px;  position:relative; top:-140px; right:-55px;">4sell</p>
+</div>
+
+
+
+
+
+
+#triangle-top{
+    position:absolute;
+	width: 100px;
+	height: 20px;
+	background: #4E3524;
+	animation:mymove1 5s infinite;
+}
+
+@keyframes mymove1 {
+  from {background-color: #4E3524;}
+  to {background-color: #BD9168;}
+}
+
+
+
+#triangle-right{
+    position:absolute;
+	width: 20px;
+	height: 80px;
+	background: #4E3524;
+	animation:mymove2 5s infinite;
+}
+
+@keyframes mymove2 {
+  from {background-color: #4E3524;}
+  to {background-color: #BD9168;}
+}
+
+
+
+
+
+
+#triangle-left{
+    position:absolute;
+    width: 20px;
+	height:80px;
+	background:white;
+	animation:mymove3 5s infinite;
+}
+
+@keyframes mymove3 {
+  from {background-color: #4E3524;}
+  to {background-color: #BD9168;}
+}
+
+#triangle-bottom{
+    position:absolute;
+    width: 100px;
+	height:20px;
+	background:#4E3524;
+	animation:mymove4 5s infinite;
+}
+
+@keyframes mymove4 {
+  from {background-color: #4E3524;}
+  to {background-color: #BD9168;}
+}
